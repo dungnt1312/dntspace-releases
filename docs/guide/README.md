@@ -99,6 +99,7 @@ Profile  ──► conversations, agent mode, skills disable list, MCP config, s
 3. **Open Folder** for the current profile.
 4. Pick an agent mode on the composer (**Ask before edit** is the safe default).
 5. Send a message. Approve tool calls when prompted.
+
 ## Audience notes
 
 
