@@ -1,11 +1,11 @@
 {
-  "version": "0.2.4",
-  "notes": "\n### Fixes\n\n- Subagents panel is attached to the assistant turn (not fixed above the composer); remove Close action (interrupt remains for running agents)",
-  "pub_date": "2026-07-17T09:22:36.679Z",
+  "version": "0.2.5",
+  "notes": "\n### Features\n\n- Product branding shows **DntSpace** (window title, installer name, UI labels, default prompts)\n- Launch update toast checks on **every** app start (no 24h skip) so new versions are harder to miss\n\n### Notes\n\n- App id stays `com.dntchat.app` so existing installs, data, and update identity keep working\n- Workspace skill folder remains `.dntchat`",
+  "pub_date": "2026-07-17T09:37:08.570Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQjIrY2d6VlFCdWYreXhtb2g0cHRGRFQ0emViSUJZdzBUeTdaOUljOTI0TWNaUktkTlZ4dXB6OFczTWpjYkdRK05TSWp6U3RMWTg5dnNwbW5HbW9rSDMwQ0tmQ3FTbndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MjgwMTU1CWZpbGU6ZG50Y2hhdF8wLjIuNF94NjQtc2V0dXAubnNpcy56aXAKdWg4TGlrUWNwT2xpWWJtTWliMTBjd0VHdGgyZEJ3bWZtc2EvOGp5Rm5mS0RIdlM3STF6M20zTzZFNlhBbmpqeXcwM1h1b3FIZmxiOVNFM01vZUxLRHc9PQo=",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.2.4/dntchat_0.2.4_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQjIrY2d6VlFCdWVxbUlKQ1UwSUVWU29YdWRYV1VTSVBKemt4YlBHNmUxL3ZQY00yM0VTeEdXT2ptQXNGamliSW9BeUFJbjQwcEFCZGpXVCt5WXR4ZlVJMVZBR0tUNlFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MjgxMDI3CWZpbGU6RG50U3BhY2VfMC4yLjVfeDY0LXNldHVwLm5zaXMuemlwCmpJTkRjaUs4Q0hmM1ZnUEh1WGRwZFZuQjdSdkJMeE1Wc0EzWTQ5SG12b3BoZjFXdzczaUhXdm1Db1Q4ditESTJmcGZrRzlEZm5rWEhremhDK3F1SEJBPT0K",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.2.5/DntSpace_0.2.5_x64-setup.nsis.zip"
     }
   }
 }
