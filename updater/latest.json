@@ -1,11 +1,11 @@
 {
-  "version": "0.2.1",
-  "notes": "\n### Fixes\n\n- Image/video Settings pickers detect models by name (`image` / `video` in id or display name) and only list matching models, independent of chat enable/disable",
-  "pub_date": "2026-07-17T08:48:40.458Z",
+  "version": "0.2.2",
+  "notes": "\n### Fixes\n\n- Provider and chat model lists exclude image/video models (by catalog kind or name tokens); media models stay under Image/Video settings only",
+  "pub_date": "2026-07-17T08:56:57.326Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQjIrY2d6VlFCdWNMUEh0Z2RWYitXNFlSWFQ2MVBueVFvenZDNEJDeHA5Rk5Oci9QUmNUaWNYZTRoTkdxMjBIVGxhNnV1RmlBRTF6eGZPTzhHd3dFSWRlLzZxekdIQkFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0Mjc4MTE4CWZpbGU6ZG50Y2hhdF8wLjIuMV94NjQtc2V0dXAubnNpcy56aXAKY1FLYy9jL3gwVGRpNlZEY0J2dnpZckpFQzgvTjBncGUwSm1vNDVweDBCVEc4ckFFOUVnZTV2RGlyYmpyS0M3eGxPK1lJTCtxRW56ZEk2K0pVU2FORGc9PQo=",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.2.1/dntchat_0.2.1_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQjIrY2d6VlFCdWIrSTFVeElHRUlvcUJrY0hUQ0JRVmszVGMvb1plbEpFY2daRk9nM2kxQ3BRWmpBbmhVYStBNEFwTCsrMFN3YWpjQWw4bmgwRXBMdmQwVVBwOGI4NFFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0Mjc4NjE2CWZpbGU6ZG50Y2hhdF8wLjIuMl94NjQtc2V0dXAubnNpcy56aXAKcmU5USswQTdndWdONmRpekF1LzA5bHFaR3V1RUsxWFNFY3l1NU1nOWtJUU8xdmpLVGtQZmZFOU5ObkVyeGFFaGZFMGRQdDI4NmdEUmNhVE9Kb3FiQmc9PQo=",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.2.2/dntchat_0.2.2_x64-setup.nsis.zip"
     }
   }
 }
