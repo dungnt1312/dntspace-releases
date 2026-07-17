@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0",
+  "notes": "\n### Features\n\n- **DNT Hosted image & video** — Settings media tools can use hosted aliases; plan quota meters image/video requests; video download via signed short-lived URLs\n- **BYOK policy on media** — plans with BYOK off require DNT Hosted for image/video as well as chat\n- **Model aliases** — hosted catalog prefers public alias codes with ordered failover\n- **Windows sandbox levels** — Off / Workspace / Strict, network approval gate, Job Object runner for child processes\n- **Profile isolation** — packs, skills, MCP, layout/notifications scoped per profile; wipe pack config on profile delete\n- **Workbench** — open PDF/DOCX/binary previews, tab context menu, explorer single-click preview tabs\n- **In-app updates** — signed Windows updates (launch check + Diagnostics); public channel remains dntspace-releases\n- **Branding** — DntSpace icon/lockup assets in app and admin UI\n\n### Performance\n\n- Faster chat streaming: virtualized turns, stream drafts without rewriting message lists, coalesced chunks\n- Shorter SQLite lock scopes; license session cache on proxy hot path; progressive SSE metering\n\n### Fixes\n\n- Stream cancel finalizes draft like done/error\n- Soft-limit UI event listener restored\n- Per-user NSIS only (no admin install path)\n\n### Distribution\n\n- Public artifacts: per-user NSIS + checksums + signed updater packages\n- Channel: [dungnt1312/dntspace-releases](https://github.com/dungnt1312/dntspace-releases)",
+  "pub_date": "2026-07-17T08:32:52.484Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQjIrY2d6VlFCdVQzZDVkbkROUDlzcnNaOE0wRU9NL00rYmg2anpVdW9RT3Y5cUN2cVFpU04vY0UwMmxNSVpOdDZlS3BseU5Xb01IZlVEV1R3NUI2Z25YcitZZUtMakFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0Mjc3MTcxCWZpbGU6ZG50Y2hhdF8wLjIuMF94NjQtc2V0dXAubnNpcy56aXAKY09PMUhZb21iNEFIRjBzZ2x2MGhZZWVFVGN3TkxzK2tiK0dIWHkwT3NlQWR5aUFyeFAvWlRIWWE4eDlmNk9OaTdVMEtWUGp5YTBNMnRjNDFuREY4QVE9PQo=",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.2.0/dntchat_0.2.0_x64-setup.nsis.zip"
+    }
+  }
+}
