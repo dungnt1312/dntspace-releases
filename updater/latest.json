@@ -1,11 +1,11 @@
 {
-  "version": "0.2.6",
-  "notes": "\n### Fixes\n\n- Launch update toast layout: clear spacing, plain-text notes (no raw markdown), readable version line",
-  "pub_date": "2026-07-17T09:43:11.770Z",
+  "version": "0.2.7",
+  "notes": "\n### Features\n\n- Default license server is **https://oss.dntspace.com** (was localhost for local `dntlicd`)\n- Chat process activity labels, empty-chat starters, attention/composer polish\n- Markdown rendering hardening for heavy/base64 payloads in chat\n\n### Notes\n\n- Override the baked default at build time with `DNTLIC_DEFAULT_SERVER_URL` if needed",
+  "pub_date": "2026-07-18T04:03:17.811Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQjIrY2d6VlFCdVU5K1l3REZWWUtKVTB0MkxqWlFIWVVxV1Bndk1TRkZpSnhud1U2WXlldGgyQTFqTzZwZkthQ1dKeEo3aXRQMzdINUtwSWYvUWx5cXhNU2NHNG1EL0FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MjgxMzkwCWZpbGU6RG50U3BhY2VfMC4yLjZfeDY0LXNldHVwLm5zaXMuemlwCk83ZkxrUzVrVksrVzB0cE5TaWcxOEhYOEp5Sm5nWCs0QlA4dSthSC8wdjUwdjgxOHI2d1pVaGVJSnpDS0xQaUlCcVVVY0gvbjU1Qlp0RjNLQmZYckNBPT0K",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.2.6/DntSpace_0.2.6_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQjIrY2d6VlFCdVZFL0lUangyT1p3T250VFM1YlR5Rk9mTUhIQjJXNi9ROW52akZmelRxOHhNVllMdk90NjdOWnd6aWY1bndIeWx3NEthT2lhZjQvNXNPWlJGRDVFaFFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MzQ3Mzk3CWZpbGU6RG50U3BhY2VfMC4yLjdfeDY0LXNldHVwLm5zaXMuemlwCmFQQklwWFl4SlEybmt2RXk0WnBiUVJ2L2Z3VGRCUmtFNmljMGo5bVZsbmhFREw3eWRmUytUR3RaeVhwS3B6Wm9COENxZ1k2ZWptWHRQcXNFRkJ2UkRRPT0K",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.2.7/DntSpace_0.2.7_x64-setup.nsis.zip"
     }
   }
 }
