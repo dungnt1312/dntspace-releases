@@ -1,11 +1,11 @@
 {
-  "version": "0.2.7",
-  "notes": "\n### Features\n\n- Default license server is **https://oss.dntspace.com** (was localhost for local `dntlicd`)\n- Chat process activity labels, empty-chat starters, attention/composer polish\n- Markdown rendering hardening for heavy/base64 payloads in chat\n\n### Notes\n\n- Override the baked default at build time with `DNTLIC_DEFAULT_SERVER_URL` if needed",
-  "pub_date": "2026-07-18T04:03:17.811Z",
+  "version": "0.2.8",
+  "notes": "v0.2.8 — MCP trust hardening, compact UI, composer follow-up queue. NOTE: rotating updater signing key; v0.2.7 users must reinstall manually (auto-update resumes from v0.2.8 onward).",
+  "pub_date": "2026-07-19T16:04:11.261Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQjIrY2d6VlFCdVZFL0lUangyT1p3T250VFM1YlR5Rk9mTUhIQjJXNi9ROW52akZmelRxOHhNVllMdk90NjdOWnd6aWY1bndIeWx3NEthT2lhZjQvNXNPWlJGRDVFaFFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MzQ3Mzk3CWZpbGU6RG50U3BhY2VfMC4yLjdfeDY0LXNldHVwLm5zaXMuemlwCmFQQklwWFl4SlEybmt2RXk0WnBiUVJ2L2Z3VGRCUmtFNmljMGo5bVZsbmhFREw3eWRmUytUR3RaeVhwS3B6Wm9COENxZ1k2ZWptWHRQcXNFRkJ2UkRRPT0K",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.2.7/DntSpace_0.2.7_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUM1RqVHQyR2tTMUhyalVmWFM1YlBCTG1VWlQrMmlnTXpjeXVpbEg4NlhkdC9SNkthbzl3TVdhSlZ1Y3RseXpRNlRLWitZNm1rYU96NDUwU2g4YWFoVGwxSW1DaXJ4VEFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NDc3MDUxCWZpbGU6RG50U3BhY2VfMC4yLjhfeDY0LXNldHVwLm5zaXMuemlwCm45QUJGWTd2UFlGWDYxZHh3SmVEb0JtTkw3TW1zNEs5UHZXdFpOcDFwMDg2Q08zUDJUeDZUaVBMYVBha1V6L3ZGdTlla1dCMEN3KzlEcDlTV00xNUN3PT0K",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.2.8/DntSpace_0.2.8_x64-setup.nsis.zip"
     }
   }
 }
