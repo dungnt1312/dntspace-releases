@@ -1,11 +1,11 @@
 {
-  "version": "0.2.8",
-  "notes": "DntSpace v0.2.8",
-  "pub_date": "2026-07-20T07:09:06.142Z",
+  "version": "0.2.9",
+  "notes": "\n### Added\n\n- Server: durable `video_jobs` table (survives `dntlicd` restart; 2h TTL prune)\n- Desktop: hosted soft-limit from `X-DNT-Usage-Soft-Limit`; stable `quota_exceeded` copy\n\n### Changed\n\n- Alias dual-read off (`DualReadWires=false`); hosted chat accepts alias codes only\n\n### Security / Server\n\n- Bound JSON/chat request bodies; HTTP read timeouts\n- Rate limit admin login/bootstrap and license activate (in-memory; single-process)\n- Security headers + request id\n- Production config rejects sample secrets; separate download secret (`DNTLIC_DOWNLOAD_SECRET`)\n- SSRF guards on provider probe outbound URLs\n- Admin password minimum length; login constant-work path\n- Durable `video_jobs` across restart (Store + migration 004; TTL 2h)",
+  "pub_date": "2026-07-20T07:55:01.805Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQjIrY2d6VlFCdWRLUmNWZS94RGZ5NjRiSUZ3NnB5bVNQMTlHK0xEdERKNEVxWE9tSGxYN0NHRFFDRDlrcWtiQmxPaG4xalRRZUZHVWsvNHEvaU1OYTJzR1p6clVZaGc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTMxMzQ2CWZpbGU6RG50U3BhY2VfMC4yLjhfeDY0LXNldHVwLm5zaXMuemlwCjhKK0l4U3I1WHpkbFNLS1dMbzJzT2Y0Zms5NU5HbUlTSnB2Y1o2Qi9VYUVvcVdoUXRHU212Z2J3MWdqblhhQTNnemIxZ3VFZGp1eE1HRzNCVC9PQkNnPT0K",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.2.8/DntSpace_0.2.8_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQjIrY2d6VlFCdWFRcnVOZFNUQlNRUWJiT1hnVTFDMU82bmJnR09kaXJvb1FVb3JBeFdIZmhrZVArc0RsT0FXbEt3QmROYTRiQlhyaUNWdFd6c2pVUTFlRVR0aEhDOEEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTM0MTAxCWZpbGU6RG50U3BhY2VfMC4yLjlfeDY0LXNldHVwLm5zaXMuemlwCkVnSitROUdWZm94bkIwc1h2YTFTWkg2Mzg2VndkandNMGczSm8xZHlDVFp5VU55bmpuWDdPR3Z0bWlyNldBc3NYZlo2dUVNL2tpUE45WUl2SCtEakJRPT0K",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.2.9/DntSpace_0.2.9_x64-setup.nsis.zip"
     }
   }
 }
