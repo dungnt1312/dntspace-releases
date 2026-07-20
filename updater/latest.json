@@ -1,10 +1,10 @@
 {
   "version": "0.2.8",
-  "notes": "v0.2.8 — MCP trust hardening, compact UI, composer follow-up queue. NOTE: rotating updater signing key; v0.2.7 users must reinstall manually (auto-update resumes from v0.2.8 onward).",
-  "pub_date": "2026-07-19T16:04:11.261Z",
+  "notes": "DntSpace v0.2.8",
+  "pub_date": "2026-07-20T07:09:06.142Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUM1RqVHQyR2tTMUhyalVmWFM1YlBCTG1VWlQrMmlnTXpjeXVpbEg4NlhkdC9SNkthbzl3TVdhSlZ1Y3RseXpRNlRLWitZNm1rYU96NDUwU2g4YWFoVGwxSW1DaXJ4VEFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NDc3MDUxCWZpbGU6RG50U3BhY2VfMC4yLjhfeDY0LXNldHVwLm5zaXMuemlwCm45QUJGWTd2UFlGWDYxZHh3SmVEb0JtTkw3TW1zNEs5UHZXdFpOcDFwMDg2Q08zUDJUeDZUaVBMYVBha1V6L3ZGdTlla1dCMEN3KzlEcDlTV00xNUN3PT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQjIrY2d6VlFCdWRLUmNWZS94RGZ5NjRiSUZ3NnB5bVNQMTlHK0xEdERKNEVxWE9tSGxYN0NHRFFDRDlrcWtiQmxPaG4xalRRZUZHVWsvNHEvaU1OYTJzR1p6clVZaGc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTMxMzQ2CWZpbGU6RG50U3BhY2VfMC4yLjhfeDY0LXNldHVwLm5zaXMuemlwCjhKK0l4U3I1WHpkbFNLS1dMbzJzT2Y0Zms5NU5HbUlTSnB2Y1o2Qi9VYUVvcVdoUXRHU212Z2J3MWdqblhhQTNnemIxZ3VFZGp1eE1HRzNCVC9PQkNnPT0K",
       "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.2.8/DntSpace_0.2.8_x64-setup.nsis.zip"
     }
   }
