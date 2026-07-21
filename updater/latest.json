@@ -1,11 +1,11 @@
 {
-  "version": "0.2.9",
-  "notes": "\n### Added\n\n- Server: durable `video_jobs` table (survives `dntlicd` restart; 2h TTL prune)\n- Desktop: hosted soft-limit from `X-DNT-Usage-Soft-Limit`; stable `quota_exceeded` copy\n\n### Changed\n\n- Alias dual-read off (`DualReadWires=false`); hosted chat accepts alias codes only\n\n### Security / Server\n\n- Bound JSON/chat request bodies; HTTP read timeouts\n- Rate limit admin login/bootstrap and license activate (in-memory; single-process)\n- Security headers + request id\n- Production config rejects sample secrets; separate download secret (`DNTLIC_DOWNLOAD_SECRET`)\n- SSRF guards on provider probe outbound URLs\n- Admin password minimum length; login constant-work path\n- Durable `video_jobs` across restart (Store + migration 004; TTL 2h)",
-  "pub_date": "2026-07-20T07:55:01.805Z",
+  "version": "0.3.0",
+  "notes": "\n### Added\n\n- **Agent hooks** — shell hooks at SessionStart, UserPromptSubmit, PreToolUse, PostToolUse, Stop, and Notification (workspace `.dntspace/hooks.json` + per-profile Settings → Hooks)\n- **Web sign-in** — open browser login, return via `dntspace://` deep link; license gate requires login or key before use\n- **Settings → User** — account / license / usage (replaces the old License settings tab)\n- Factory reset (dev wipe on next boot) and reload-window confirm dialogs\n- Chat polish: worked-for trail collapse, tool taxonomy, debug panel helpers, sessions footer\n\n### Changed\n\n- Settings UI shared cards/sections; license-based BYOK filtering on models\n- Sub-session sidebar actions restored; chat timeline/tool card UX polish\n- Guide docs: hooks + license/login and related pages\n\n### Notes\n\n- App id remains `com.dntspace.app`; workspace folder remains `.dntspace`\n- In-app auto-update from prior signed 0.2.x builds continues via the public feed",
+  "pub_date": "2026-07-21T09:01:55.119Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQjIrY2d6VlFCdWFRcnVOZFNUQlNRUWJiT1hnVTFDMU82bmJnR09kaXJvb1FVb3JBeFdIZmhrZVArc0RsT0FXbEt3QmROYTRiQlhyaUNWdFd6c2pVUTFlRVR0aEhDOEEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTM0MTAxCWZpbGU6RG50U3BhY2VfMC4yLjlfeDY0LXNldHVwLm5zaXMuemlwCkVnSitROUdWZm94bkIwc1h2YTFTWkg2Mzg2VndkandNMGczSm8xZHlDVFp5VU55bmpuWDdPR3Z0bWlyNldBc3NYZlo2dUVNL2tpUE45WUl2SCtEakJRPT0K",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.2.9/DntSpace_0.2.9_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQjIrY2d6VlFCdVJzaWRNRkZwWk5iZVhjVE1raUpzUUc0WTBRUUUrNEcxalJ2cnpBNllrMlJpdm9Hb1paWkdiZVhoNzdCSmxud1BlcnduOE5wdjFBYTNtdmFRY1VtN1FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NjI0NTE0CWZpbGU6RG50U3BhY2VfMC4zLjBfeDY0LXNldHVwLm5zaXMuemlwClFvN1RHbnkxZ0wrVENOdUFHZnA5VTViMHk1VWxFcEU2Uzl5VlZqN1JZb0JYWC9mdzA3TThtd0lnUGZXRmRMc1VRTE96dGRCYjZpbXlaZG5FMVBSeUNBPT0K",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.3.0/DntSpace_0.3.0_x64-setup.nsis.zip"
     }
   }
 }
