@@ -1,10 +1,10 @@
 {
   "version": "0.3.0",
   "notes": "\n### Added\n\n- **Agent hooks** — shell hooks at SessionStart, UserPromptSubmit, PreToolUse, PostToolUse, Stop, and Notification (workspace `.dntspace/hooks.json` + per-profile Settings → Hooks)\n- **Web sign-in** — open browser login, return via `dntspace://` deep link; license gate requires login or key before use\n- **Settings → User** — account / license / usage (replaces the old License settings tab)\n- Factory reset (dev wipe on next boot) and reload-window confirm dialogs\n- Chat polish: worked-for trail collapse, tool taxonomy, debug panel helpers, sessions footer\n\n### Changed\n\n- Settings UI shared cards/sections; license-based BYOK filtering on models\n- Sub-session sidebar actions restored; chat timeline/tool card UX polish\n- Guide docs: hooks + license/login and related pages\n\n### Notes\n\n- App id remains `com.dntspace.app`; workspace folder remains `.dntspace`\n- In-app auto-update from prior signed 0.2.x builds continues via the public feed",
-  "pub_date": "2026-07-21T09:01:55.119Z",
+  "pub_date": "2026-07-21T09:25:45.938Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQjIrY2d6VlFCdVJzaWRNRkZwWk5iZVhjVE1raUpzUUc0WTBRUUUrNEcxalJ2cnpBNllrMlJpdm9Hb1paWkdiZVhoNzdCSmxud1BlcnduOE5wdjFBYTNtdmFRY1VtN1FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NjI0NTE0CWZpbGU6RG50U3BhY2VfMC4zLjBfeDY0LXNldHVwLm5zaXMuemlwClFvN1RHbnkxZ0wrVENOdUFHZnA5VTViMHk1VWxFcEU2Uzl5VlZqN1JZb0JYWC9mdzA3TThtd0lnUGZXRmRMc1VRTE96dGRCYjZpbXlaZG5FMVBSeUNBPT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQjIrY2d6VlFCdWFWdEg1OHRGaFB2cTJHcEJtb1c1VE8zMDc1bEF5UmZpdFBQbGhNekhTU1VwTGUvbDlGZmNyUmRmRnp4dWlGemNBY0JJOHlSbitPTWhZZ3pZejJWUGc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NjI1OTQ1CWZpbGU6RG50U3BhY2VfMC4zLjBfeDY0LXNldHVwLm5zaXMuemlwClpCL1BzMXdxZUt5UDBJNFpPVzhuaGVpS2hXZmNkbkEwRERPNnBwbDQ3cHhQdSt3VksrNSs3d3J4WFdZTHJkaWUzNWNhR0N3aGpnaFZuaXdpSXJyZERnPT0K",
       "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.3.0/DntSpace_0.3.0_x64-setup.nsis.zip"
     }
   }
