@@ -1,11 +1,11 @@
 {
-  "version": "0.3.0",
-  "notes": "",
-  "pub_date": "2026-07-28T03:01:16.015Z",
+  "version": "0.3.2",
+  "notes": "DntSpace v0.3.2 - rotated updater signing key and hardened media artifact handling.",
+  "pub_date": "2026-07-29T07:16:50.812Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQjIrY2d6VlFCdWExSTFNVEQzcWdkV1VmdWxydHFGOC9BcTArOFBVRVNmditucFM2NWI3dVhRL1RMYWlvV3ZtUnE1bC9FaXpjdGRINUhyME1kdHRzOWhqSDRtMWxvYUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1MTUyNzg5CWZpbGU6RG50U3BhY2VfMC4zLjBfeDY0LXNldHVwLm5zaXMuemlwCnRGUDZQckw3NGx6UW1iWCtqakNMYVhCSFBXZlB3b3dIOXBqVnNNYi96eTBiNzhvT3oweEVtOXQyOVhWYVlpN1h5ZW14YUEvR3lOMUdBQmVPY2l4TUFBPT0K",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.3.0/DntSpace_0.3.0_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEp0Uk9qVy9ySFdoaWhuZG5TeDBBMkxBb0tWNktGZlJOMzRFSlowTU5FVGhHc0N4UlpVaHJJMlpkUW55dWdHSWYvVXM3RXdCNVczbXFnWHZUeEdQYlFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1MzA5NDEwCWZpbGU6RG50U3BhY2VfMC4zLjJfeDY0LXNldHVwLm5zaXMuemlwCmY4NTk0bjY0eEhQM2J4K2xHY3Jtb0FqRGtmc3JPcVh6KzdJQWtVU01EVXpncXZvclRpVWFLTmo5N2ZvTzREUVNaeEo2K092OFBFQ2RSNzZISTRGR0FRPT0K",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.3.2/DntSpace_0.3.2_x64-setup.nsis.zip"
     }
   }
 }
