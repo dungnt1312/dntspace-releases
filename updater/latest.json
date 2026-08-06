@@ -1,11 +1,11 @@
 {
-  "version": "0.3.8",
-  "notes": "Safer workspace editing, improved MCP management, and hardened agent runtime.",
-  "pub_date": "2026-08-06T06:20:18.102Z",
+  "version": "0.3.9",
+  "notes": "## Added\n\n- **Attachment tray:** image attachments now stage in a dedicated tray in the composer instead of inline chips, giving clearer previews and consistent handling across drops, pastes, and restored drafts.\n- **Vision-aware messaging:** when the selected chat model lacks vision support, native image parts are dropped from the request (avoiding provider errors) while image file paths stay in the text body so describe/edit tools can still reference them.\n\n## Changed\n\n- **Subagent model handling:** spawned agents and resumed subagents now validate their requested model against the provider's catalog and fall back to the root model when a definition references an unknown alias (e.g. `sonnet`/`opus`), preventing whole child-turn failures.\n- **Composer and chat UX:** attachment rendering, diff review, tool cards, conversation menu, and Markdown/shell styling are clearer and more resilient.",
+  "pub_date": "2026-08-06T11:25:26.664Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WFBrd1ZxblBaRDVFbEZpWVRHdmdoWTVxWWdEMmoycy9pa3ZxVFNxbHJUSWNDVEtLdllhanIydEpVaHg5Umc1MUF3WFhBT1lXK0oybEVPdEFPbGlSbGdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1OTk3MjE3CWZpbGU6RG50U3BhY2VfMC4zLjhfeDY0LXNldHVwLm5zaXMuemlwCldhNk84VkpXcGoyeWQ3Qjd3T2s5VWExM2RnelNMVVJkNUhjaVFwcWdZNTJhVlZiSGdwUW42amo3eW5QdWE4YjlzQnNVMXF3d3JpTlAwM0FyeHFNR0N3PT0K",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.3.8/DntSpace_0.3.8_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEZHYlh3UTMxcy9PcDRHYUhjQksrK3hMaUpPQjdKays1TmFqSkRGYUlUc0FONlVDR3g3LzRxR0lxbi91MW43aDJpTHIrK21RdktORE1USXZWQlJkWHdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MDE1NTI2CWZpbGU6RG50U3BhY2VfMC4zLjlfeDY0LXNldHVwLm5zaXMuemlwCnNSeTdwanNPdzkvTCt4R2t4R2hPNWd1L1A1Rmx4MmR6L2RzVXlJUHJqb1hwZkZHd2lmZjg3aUYzRXJnUWJ3SGptakhhQlUwbS8vQjgvaVB4TXVqUkFnPT0K",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.3.9/DntSpace_0.3.9_x64-setup.nsis.zip"
     }
   }
 }
