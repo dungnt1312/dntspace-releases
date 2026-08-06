@@ -1,11 +1,11 @@
 {
-  "version": "0.3.7",
-  "notes": "DntSpace v0.3.7",
-  "pub_date": "2026-08-05T08:01:32.949Z",
+  "version": "0.3.8",
+  "notes": "Safer workspace editing, improved MCP management, and hardened agent runtime.",
+  "pub_date": "2026-08-06T06:20:18.102Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WElTcStGd2ZDT2t3c0g5UXJHYlZoWWNtWjFvY0tEdmlQU204RDhjNzhzQU5kbWdtOVJZZzVvK3FoY3Z1Ry9IcUV2NmxmTnJtYUJ1VjloWDJSODFzd1F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1OTE2ODkyCWZpbGU6RG50U3BhY2VfMC4zLjdfeDY0LXNldHVwLm5zaXMuemlwCmVuVkxlY1FSODdMT09jK0s5OEw1dDVEV043REk3a0tpUkVUNEFWSGducjZoMjFZbmxvM2ZBQlJUSjI1bVFxYUFxMGR3a1V4ME4yYlpqSmpLNVVKOEJ3PT0K",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.3.7/DntSpace_0.3.7_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WFBrd1ZxblBaRDVFbEZpWVRHdmdoWTVxWWdEMmoycy9pa3ZxVFNxbHJUSWNDVEtLdllhanIydEpVaHg5Umc1MUF3WFhBT1lXK0oybEVPdEFPbGlSbGdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1OTk3MjE3CWZpbGU6RG50U3BhY2VfMC4zLjhfeDY0LXNldHVwLm5zaXMuemlwCldhNk84VkpXcGoyeWQ3Qjd3T2s5VWExM2RnelNMVVJkNUhjaVFwcWdZNTJhVlZiSGdwUW42amo3eW5QdWE4YjlzQnNVMXF3d3JpTlAwM0FyeHFNR0N3PT0K",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.3.8/DntSpace_0.3.8_x64-setup.nsis.zip"
     }
   }
 }
