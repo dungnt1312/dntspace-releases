@@ -1,11 +1,11 @@
 {
-  "version": "0.4.0",
-  "notes": "## Added\n\n- **External channels (Telegram):** chat with the agent from Telegram — each Telegram chat maps to an app conversation. Bidirectional bridge with auto-map and slash commands (`/new`, `/list`, `/conv`, `/stop`, `/status`, `/help`, `/workspace`). Bot tokens are stored in the profile vault; reply splitting, approval codes, and an activity watchdog keep turns reliable. A Channels settings tab wires it up and auto-registers the slash-command menu.\n- **Subagent surfaces:** spawn-agent rows and an active-first subagent roster make multi-agent activity visible in the chat timeline.\n- **Compact tool rows:** tool results collapse to a one-line snippet with structured shell results for denser timelines.\n\n## Changed\n\n- **Chat and composer:** `@`-mentions no longer duplicate attachment rows, live-generation tool cards stay pinned across mid-stream reloads, disclosure toggles no longer break stick-to-bottom, and the composer footer is responsive.\n- **Shell chrome:** topbar menus support arrow-key navigation, hover/background use color-mix tokens, and resize-handle width is tracked correctly.\n- **Agents and providers:** thinking overrides use substring model-family matching; Windows session roots strip the extended-length prefix.",
-  "pub_date": "2026-08-07T10:46:24.792Z",
+  "version": "0.4.1",
+  "notes": "Agent workspace tools, multi-agent safeguards, and refreshed chat/profile guidance.",
+  "pub_date": "2026-08-10T07:10:30.098Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEM4WHB4dUVqUE15a1RSV2YvcFZHZjJlUUxCTHg0R2tYQS8vci9KeDJpSUVFVE90NlhjRy9xQnpYVnczQnUwd1oxTkY0U2tpQm56MTBhMTdCeFhkS1FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MDk5NTg0CWZpbGU6RG50U3BhY2VfMC40LjBfeDY0LXNldHVwLm5zaXMuemlwCkdsUFowU2pZU2dhNHcxcEs4QlM4b2NRN1hPT3dscFB4clFGQjZtWXd5eWhDTnh0RjloNGF2RUJleVk3blBCK2RPWVRqa0hyMHE2RzlUQitmNDgreUR3PT0K",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.4.0/DntSpace_0.4.0_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEtyWWV5UG90NjlQWUtXRjVINEllRkJqNFVGdDhERnRpU1ZnODZIVkRTaEhsZlFZSkJiZHdnS2J0MVhYK21vNFZOUFppZmpYWTNSVEJoTkVCZVFwVnc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MzQ1ODI5CWZpbGU6RG50U3BhY2VfMC40LjFfeDY0LXNldHVwLm5zaXMuemlwClpJbzJwOUF1SjJlUmtvZTF3WlJRREpHeWZUOFBWRXRBTGdEZEhiam5BOVprb2FVa2hBK1owUzFTMEw3WkNhallpeUszU1R5aysxSGgxWWZNQUNpdkR3PT0K",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.4.1/DntSpace_0.4.1_x64-setup.nsis.zip"
     }
   }
 }
