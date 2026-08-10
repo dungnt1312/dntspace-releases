@@ -1,11 +1,11 @@
 {
-  "version": "0.4.1",
-  "notes": "Agent workspace tools, multi-agent safeguards, and refreshed chat/profile guidance.",
-  "pub_date": "2026-08-10T07:10:30.098Z",
+  "version": "0.4.2",
+  "notes": "DntSpace 0.4.2 improves agent lifecycle reliability, persistent follow-up queues, workspace diff review, and runtime integration hardening.",
+  "pub_date": "2026-08-10T08:45:49.748Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEtyWWV5UG90NjlQWUtXRjVINEllRkJqNFVGdDhERnRpU1ZnODZIVkRTaEhsZlFZSkJiZHdnS2J0MVhYK21vNFZOUFppZmpYWTNSVEJoTkVCZVFwVnc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MzQ1ODI5CWZpbGU6RG50U3BhY2VfMC40LjFfeDY0LXNldHVwLm5zaXMuemlwClpJbzJwOUF1SjJlUmtvZTF3WlJRREpHeWZUOFBWRXRBTGdEZEhiam5BOVprb2FVa2hBK1owUzFTMEw3WkNhallpeUszU1R5aysxSGgxWWZNQUNpdkR3PT0K",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.4.1/DntSpace_0.4.1_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WE1MeE12TEtTS29DeUIwZkhxQkRUTVpqVCtOenMyb3huQUxQWExJNXRjVXp5S3lhQmh6aFRuODNmMStxUUlibkV2cWIwSGFsMnFldnZIbTVRanNBdFFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MzUxNTQ5CWZpbGU6RG50U3BhY2VfMC40LjJfeDY0LXNldHVwLm5zaXMuemlwCm10ektMZkQwYkErdTNWWWlhQU56aWlvVjN2U09JdXJGTEZLbWdhZHRXMjh4VGhiV2pxSW5JMHptMkdJYVloYlpPUEhENnVteWRWUDRIbGN4M1QzY0NnPT0K",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.4.2/DntSpace_0.4.2_x64-setup.nsis.zip"
     }
   }
 }
