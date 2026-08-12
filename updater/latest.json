@@ -1,11 +1,11 @@
 {
-  "version": "0.4.4",
-  "notes": "Scheduled message dispatch reliability improvements.",
-  "pub_date": "2026-08-11T10:56:16.015Z",
+  "version": "0.4.5",
+  "notes": "DntSpace v0.4.5",
+  "pub_date": "2026-08-12T06:50:21.636Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEdBRDlmWE5lN1BnTjg2RVRwa056aitkYi90N1J3S1MwMW5xUFRPbU5SL1FJbEJLWEYwTSt2STN4bis0all5UDRPOGlibG5jOWJrVSs4eEVoUFdsYlFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NDQ1Nzc1CWZpbGU6RG50U3BhY2VfMC40LjRfeDY0LXNldHVwLm5zaXMuemlwCjU0ZGFqZkRSRC8rYjJ1R2dOWTdQemozSkVlZUwxbVBzelExNTh1ak1iUDg2OGQ1QnlrTEFBRXlWME9WOFhSTGVOMEQ2TUJnUHcxT2E0a3lxZzd4TkNRPT0K",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.4.4/DntSpace_0.4.4_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEYzaXE1b1Z0T2lEK01YSjAxQ3hmYnVGamh0dnRqYzBxQnZaYjRVbit5ZlhEcmV6VGl0KzJibmI1WXE5ZTVoSDhqWFdSTE5PS21mOFlkdVJySzJ1OWc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTE3NDIwCWZpbGU6RG50U3BhY2VfMC40LjVfeDY0LXNldHVwLm5zaXMuemlwCi9VZUNYYXRVampteXd6SHJoV25xc29xRzZZK3NlY3VKaElLajZENmMrRlFQTDhvRkl1Ky9MQjhLMkt0Zk9VUnZEcmRQZWRXbE1xWVhrbFp0RjhubkJnPT0K",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.4.5/DntSpace_0.4.5_x64-setup.nsis.zip"
     }
   }
 }
