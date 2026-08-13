@@ -1,11 +1,11 @@
 {
-  "version": "0.4.5",
-  "notes": "DntSpace v0.4.5",
-  "pub_date": "2026-08-12T06:50:21.636Z",
+  "version": "0.4.6",
+  "notes": "DntSpace v0.4.6",
+  "pub_date": "2026-08-13T07:46:40.967Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEYzaXE1b1Z0T2lEK01YSjAxQ3hmYnVGamh0dnRqYzBxQnZaYjRVbit5ZlhEcmV6VGl0KzJibmI1WXE5ZTVoSDhqWFdSTE5PS21mOFlkdVJySzJ1OWc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTE3NDIwCWZpbGU6RG50U3BhY2VfMC40LjVfeDY0LXNldHVwLm5zaXMuemlwCi9VZUNYYXRVampteXd6SHJoV25xc29xRzZZK3NlY3VKaElLajZENmMrRlFQTDhvRkl1Ky9MQjhLMkt0Zk9VUnZEcmRQZWRXbE1xWVhrbFp0RjhubkJnPT0K",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.4.5/DntSpace_0.4.5_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WE9RdmVzbDRYRWxkM2Y0OHpzZEZaaWt3dmoxTjFHbmVxaFVEb2NORUs2NUt2M2pBOHJpNlI3ejdlUVNjT2ZiVU1rNWRaSEFycHdNaFp4VGo2VFh4R1FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjA3MjAwCWZpbGU6RG50U3BhY2VfMC40LjZfeDY0LXNldHVwLm5zaXMuemlwCkxBRytIeHhDM0VqZStZSzNqR1FzRklESDh2OHU0MDlFZDM2TG5ud0JBd0N4K0pmdXRpN0ovcDVKYlhJazd0c0dyeTJ6enVlSnFmM2hhWmYxZ1laWUR3PT0K",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.4.6/DntSpace_0.4.6_x64-setup.nsis.zip"
     }
   }
 }
