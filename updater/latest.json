@@ -1,11 +1,11 @@
 {
-  "version": "0.4.8",
-  "notes": "DntSpace v0.4.8",
-  "pub_date": "2026-08-14T07:53:05.183Z",
+  "version": "0.4.9",
+  "notes": "DntSpace v0.4.9\n\n- Multi-agent child follow-ups can checkpoint prior history with typed provenance so resume and compaction stay inspectable.\n- Workflow start is shared across /workflow, Settings, and Workbench: exact name/id match, visible human-review payload, and stop no longer asks to unblock a finished run.\n- Terminal workflow_start results hydrate as a run card after resume; detached failures mark the run failed; human_review starts require a review inbox.",
+  "pub_date": "2026-08-14T11:24:17.761Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEQvV0pVWEJhL1FYczdsT284SDdnR3dqdmhFUzF3SXlwRXlqeDVNWFdIdTJvL3dlRGRrVXZoY0hYQXE1NzRVajdEdHZvK0trMnN2WmQ1a2I3dyt1RlFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjkzOTg0CWZpbGU6RG50U3BhY2VfMC40LjhfeDY0LXNldHVwLm5zaXMuemlwClYvWHFsSVBFWHBSZ0NNYUZEbDhBNlZqSXlERzFCcUh3NklPMXlKM1NVZHM1R2xyQ010aktuODB2eHFzWEpmbTA5SW94SXJnWW9Hd2hGb0pTcDNkbENRPT0K",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.4.8/DntSpace_0.4.8_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WExlSi9kekk2NzV6VUl4ejZDVVV3YlUrbnF4c29SOVhBUXJGSTBsaVp6MTc1QU16ajQ1czhnTzFWNXB2UWNxZTA0THJ6eGxpNFVVNTBjTGNUVVRvN2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NzA2NjU2CWZpbGU6RG50U3BhY2VfMC40LjlfeDY0LXNldHVwLm5zaXMuemlwClFsSGw2ZUlKSlFFc2VuTW5KbitPTnYwTSt6TWtJWjZKNyszRWRNUlRsbXdQSGk0R0NPYjIrMlVYWFVXdVdpcFFYbGViVDBqSVZiWTd6cTd0YlpHY0FnPT0K",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.4.9/DntSpace_0.4.9_x64-setup.nsis.zip"
     }
   }
 }
