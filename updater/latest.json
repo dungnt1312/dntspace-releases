@@ -1,11 +1,11 @@
 {
-  "version": "0.4.6",
-  "notes": "DntSpace v0.4.6",
-  "pub_date": "2026-08-13T07:46:40.967Z",
+  "version": "0.4.7",
+  "notes": "Context safeguards, MCP reliability, desktop workflow polish, and profile close semantics.",
+  "pub_date": "2026-08-14T02:15:53.308Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WE9RdmVzbDRYRWxkM2Y0OHpzZEZaaWt3dmoxTjFHbmVxaFVEb2NORUs2NUt2M2pBOHJpNlI3ejdlUVNjT2ZiVU1rNWRaSEFycHdNaFp4VGo2VFh4R1FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjA3MjAwCWZpbGU6RG50U3BhY2VfMC40LjZfeDY0LXNldHVwLm5zaXMuemlwCkxBRytIeHhDM0VqZStZSzNqR1FzRklESDh2OHU0MDlFZDM2TG5ud0JBd0N4K0pmdXRpN0ovcDVKYlhJazd0c0dyeTJ6enVlSnFmM2hhWmYxZ1laWUR3PT0K",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.4.6/DntSpace_0.4.6_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEQ2T1JwSEhzTTZ5QWdna21hdVd2aG4xUmliTnJBa2dZWlNvclY1bUxYbDJHODEvVWZmYkZ4QXJRY2FXOXpJNXRVRWJWZWJtdGtCaEh5SDh2c0hkRUFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjczNzUyCWZpbGU6RG50U3BhY2VfMC40LjdfeDY0LXNldHVwLm5zaXMuemlwCmNXUFVnK0dDZjVOUGc5Rkl2VlhqdGkyeGh1MEk5cEdEQTFmeTQ0NG4yWE1nUlF5OVRtb1djWmRnSjRvU29oM0ZaTE1hMVA2dzhTd2REWHRQcWpsbERBPT0K",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.4.7/DntSpace_0.4.7_x64-setup.nsis.zip"
     }
   }
 }
