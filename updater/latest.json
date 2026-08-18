@@ -1,11 +1,11 @@
 {
-  "version": "0.4.9",
-  "notes": "DntSpace v0.4.9\n\n- Multi-agent child follow-ups can checkpoint prior history with typed provenance so resume and compaction stay inspectable.\n- Workflow start is shared across /workflow, Settings, and Workbench: exact name/id match, visible human-review payload, and stop no longer asks to unblock a finished run.\n- Terminal workflow_start results hydrate as a run card after resume; detached failures mark the run failed; human_review starts require a review inbox.",
-  "pub_date": "2026-08-14T11:24:17.761Z",
+  "version": "0.4.10",
+  "notes": "DntSpace v0.4.10\n\n- Profile sync: opt-in multi-device sync keeps profiles and settings in sync across machines, with conflict-aware base merging, quota/stale-base error mapping, and per-item device-local exclusions.\n- Session manager: new tools let you search, rename, and archive sessions from the agent loop; archived sessions surface in search results.\n- Support reports: opt-in diagnostics can send support reports with crash breadcrumbs to help debug issues.\n- Plugins: installs are now trust-gated and path-jailed; uninstalling one version no longer disables leftover plugin services.\n- Loop badges: agent loop shows badges for child agents; provider model sync keeps models in sync with providers.\n- Context dream: dream reconcile fails closed and slices source from the latest summary, with per-line marker screen and an enable toggle.",
+  "pub_date": "2026-08-18T08:26:17.789Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WExlSi9kekk2NzV6VUl4ejZDVVV3YlUrbnF4c29SOVhBUXJGSTBsaVp6MTc1QU16ajQ1czhnTzFWNXB2UWNxZTA0THJ6eGxpNFVVNTBjTGNUVVRvN2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NzA2NjU2CWZpbGU6RG50U3BhY2VfMC40LjlfeDY0LXNldHVwLm5zaXMuemlwClFsSGw2ZUlKSlFFc2VuTW5KbitPTnYwTSt6TWtJWjZKNyszRWRNUlRsbXdQSGk0R0NPYjIrMlVYWFVXdVdpcFFYbGViVDBqSVZiWTd6cTd0YlpHY0FnPT0K",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.4.9/DntSpace_0.4.9_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEVwdndsZHpsNHIveTJ4bmdwL0l4QTYwTUZsWlNza0xIaEFPMENldWcvTlNKVlNsZDB3cTU1Yko5NU8xbkpWQUYrY01MSEljbE0zV2RNbmorZEJ6YVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MDQxNTc3CWZpbGU6RG50U3BhY2VfMC40LjEwX3g2NC1zZXR1cC5uc2lzLnppcApUZzhXV2JZajBYZi9vR2ljVFZ4VitXaEdsU2RXeDdNc2lidmczeFhsL09RWitaU1NkOUJRd3dZU0tpU1F0NHVsYStGY3ltckRkbFJnRTZlTXhuNkZDQT09Cg==",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.4.10/DntSpace_0.4.10_x64-setup.nsis.zip"
     }
   }
 }
