@@ -1,11 +1,11 @@
 {
-  "version": "0.4.10",
-  "notes": "DntSpace v0.4.10\n\n- Profile sync: opt-in multi-device sync keeps profiles and settings in sync across machines, with conflict-aware base merging, quota/stale-base error mapping, and per-item device-local exclusions.\n- Session manager: new tools let you search, rename, and archive sessions from the agent loop; archived sessions surface in search results.\n- Support reports: opt-in diagnostics can send support reports with crash breadcrumbs to help debug issues.\n- Plugins: installs are now trust-gated and path-jailed; uninstalling one version no longer disables leftover plugin services.\n- Loop badges: agent loop shows badges for child agents; provider model sync keeps models in sync with providers.\n- Context dream: dream reconcile fails closed and slices source from the latest summary, with per-line marker screen and an enable toggle.",
-  "pub_date": "2026-08-18T08:26:17.789Z",
+  "version": "0.4.11",
+  "notes": "DntSpace v0.4.11\n\n### Added\n- Multi-agent: child completion results injected live into the root turn ([child-result] notices), mid-flight child follow-ups, per-subagent follow-up/close actions in the Environment panel\n- Loop context modes: fresh context per run or dedicated runner sub-chat; full mode auto-compacts before dispatch when context is nearly full\n- Plugins: content plugins installable from a GitHub repo archive; service plugins resolve plugin.json from the upstream repo\n- Workbench: git stage/unstage/discard/commit actions\n- Background process agent tools (chat-only, never in workflows)\n\n### Fixed\n- Gemini API key moved from URL query to x-goog-api-key header (no key leaks in provider errors); license_* settings blocked over generic IPC\n- read_file handles byte caps that split UTF-8 characters; glob terminates on symlink/junction cycles\n- Catalog plugin installs fetch the GitHub repo/release on the target machine",
+  "pub_date": "2026-08-19T02:28:03.193Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEVwdndsZHpsNHIveTJ4bmdwL0l4QTYwTUZsWlNza0xIaEFPMENldWcvTlNKVlNsZDB3cTU1Yko5NU8xbkpWQUYrY01MSEljbE0zV2RNbmorZEJ6YVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MDQxNTc3CWZpbGU6RG50U3BhY2VfMC40LjEwX3g2NC1zZXR1cC5uc2lzLnppcApUZzhXV2JZajBYZi9vR2ljVFZ4VitXaEdsU2RXeDdNc2lidmczeFhsL09RWitaU1NkOUJRd3dZU0tpU1F0NHVsYStGY3ltckRkbFJnRTZlTXhuNkZDQT09Cg==",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.4.10/DntSpace_0.4.10_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WE53RUxQYjlZM3VWaWt6elpwSnRQcmVScXg1d0pvRmk4b3dLV3ZyVGFxeDV6cWt3U0xmR2RzK094Y3FGZFdkeFJRSFpEQTVuSUw1Q2hnQXVpWFQxbHdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTA2NDgyCWZpbGU6RG50U3BhY2VfMC40LjExX3g2NC1zZXR1cC5uc2lzLnppcAo0RWRiSzBrQUdmY0tjdVRmZ3ZFekVibHdJR2k5RkRiQ3FIaDhmcTVUYlZ4VkU5MStsdU9HR3lWdXBQRy9aTGRTeFFPNERIdy9zUUhrOWtyUWhYanNDZz09Cg==",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.4.11/DntSpace_0.4.11_x64-setup.nsis.zip"
     }
   }
 }
