@@ -1,11 +1,11 @@
 {
-  "version": "0.4.12",
-  "notes": "DntSpace v0.4.12\n\n### Added\n- Auth: direct desktop sign-in — the license gate now lets you sign in with your email and password on this device, as a fallback when the one-time portal link flow is unavailable; activation errors surface a friendly message instead of a raw API error",
-  "pub_date": "2026-09-07T02:51:58.790Z",
+  "version": "0.4.13",
+  "notes": "DntSpace v0.4.13\n\n### Added\n- Providers: per-model vision capability toggle — each model row in the provider model list shows a clickable Vision chip (auto-detected by the app); clicking it overrides a wrong default so image attachments are sent natively or via the describe_image fallback as you decide. Overridden chips show a dashed border; DntSpace plan-managed models are not editable",
+  "pub_date": "2026-09-07T08:28:47.082Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEhPNUpPREJSNzRjSmwyK3JsbTVlWU9HVzRGeWpjTFlyZkVRSGlTVER5NFRqbkdCQ01qYXpxMTlWUnFKcGtDUjN5M204YzQrZmdBRjIrQ0JsMEI2WlE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzQ5NTE4CWZpbGU6RG50U3BhY2VfMC40LjEyX3g2NC1zZXR1cC5uc2lzLnppcAp3Vmp1OENiKzAvSnF0SjQ4WUw1MVRWUC9FeWcySkN6UExwY2hNVURaYTJleGZuajlBOVZXOXJ4eXI4a3JvQ2JIT1JYK3FvUXo0M1BZOURLTnlCY3pDQT09Cg==",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.4.12/DntSpace_0.4.12_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEpubVU0WUxQRkF6aXRNTnZMTjVyUDBGV2czeGI2aTFhQktSVmw1bGdUQWo0b0lnbGVUdjBtWHhxbFpiUGFTdWxYZ0tQb0Rza09NSVUzLysrVXFEeGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzY5NzI2CWZpbGU6RG50U3BhY2VfMC40LjEzX3g2NC1zZXR1cC5uc2lzLnppcAo0L0QybDVrVWxTUG13eVR4aW0rczRzNU83OW93aSt4Y1F6YkZjeUFscVplcEFvZFZsM2ZpR2NNTEhySy9XUEhZeCtJbEFUUjR2ZzlYRmpTeVdLQ05CZz09Cg==",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.4.13/DntSpace_0.4.13_x64-setup.nsis.zip"
     }
   }
 }
