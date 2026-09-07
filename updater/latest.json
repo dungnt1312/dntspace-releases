@@ -1,11 +1,11 @@
 {
-  "version": "0.4.11",
-  "notes": "DntSpace v0.4.11\n\n### Added\n- Multi-agent: child completion results injected live into the root turn ([child-result] notices), mid-flight child follow-ups, per-subagent follow-up/close actions in the Environment panel\n- Loop context modes: fresh context per run or dedicated runner sub-chat; full mode auto-compacts before dispatch when context is nearly full\n- Plugins: content plugins installable from a GitHub repo archive; service plugins resolve plugin.json from the upstream repo\n- Workbench: git stage/unstage/discard/commit actions\n- Background process agent tools (chat-only, never in workflows)\n\n### Fixed\n- Gemini API key moved from URL query to x-goog-api-key header (no key leaks in provider errors); license_* settings blocked over generic IPC\n- read_file handles byte caps that split UTF-8 characters; glob terminates on symlink/junction cycles\n- Catalog plugin installs fetch the GitHub repo/release on the target machine",
-  "pub_date": "2026-08-19T02:28:03.193Z",
+  "version": "0.4.12",
+  "notes": "DntSpace v0.4.12\n\n### Added\n- Auth: direct desktop sign-in — the license gate now lets you sign in with your email and password on this device, as a fallback when the one-time portal link flow is unavailable; activation errors surface a friendly message instead of a raw API error",
+  "pub_date": "2026-09-07T02:51:58.790Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WE53RUxQYjlZM3VWaWt6elpwSnRQcmVScXg1d0pvRmk4b3dLV3ZyVGFxeDV6cWt3U0xmR2RzK094Y3FGZFdkeFJRSFpEQTVuSUw1Q2hnQXVpWFQxbHdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTA2NDgyCWZpbGU6RG50U3BhY2VfMC40LjExX3g2NC1zZXR1cC5uc2lzLnppcAo0RWRiSzBrQUdmY0tjdVRmZ3ZFekVibHdJR2k5RkRiQ3FIaDhmcTVUYlZ4VkU5MStsdU9HR3lWdXBQRy9aTGRTeFFPNERIdy9zUUhrOWtyUWhYanNDZz09Cg==",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.4.11/DntSpace_0.4.11_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEhPNUpPREJSNzRjSmwyK3JsbTVlWU9HVzRGeWpjTFlyZkVRSGlTVER5NFRqbkdCQ01qYXpxMTlWUnFKcGtDUjN5M204YzQrZmdBRjIrQ0JsMEI2WlE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzQ5NTE4CWZpbGU6RG50U3BhY2VfMC40LjEyX3g2NC1zZXR1cC5uc2lzLnppcAp3Vmp1OENiKzAvSnF0SjQ4WUw1MVRWUC9FeWcySkN6UExwY2hNVURaYTJleGZuajlBOVZXOXJ4eXI4a3JvQ2JIT1JYK3FvUXo0M1BZOURLTnlCY3pDQT09Cg==",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.4.12/DntSpace_0.4.12_x64-setup.nsis.zip"
     }
   }
 }
