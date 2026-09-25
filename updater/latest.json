@@ -1,11 +1,19 @@
 {
-  "version": "0.5.2",
-  "notes": "\n### Changed\n\n- **Settings, chat timeline, and Studio polish:** Agents/Instructions/Memory/Providers/Sandbox/Hooks/MCP/Plugins panels, TurnAssistant and timeline explorer groups, and theme tokens were tightened to the Studio system — no new theme or behavior, just consistent spacing, labels, and readable states.\n- **Guides and catalog sync:** plugin glossary, settings reference, and the official Claude plugin catalog were regenerated to match the shipped product docs.\n\n### Fixed\n\n- **Login form already Studio-conformant:** the Email/Password form restored in 0.5.1 reuses the same class family that survived the Settings sweeps in `overlays.css`; no extra CSS was added for it.",
-  "pub_date": "2026-09-25T02:09:52.435Z",
+  "version": "0.5.3",
+  "notes": "### Added\n\n- **macOS support:** DntSpace now ships for macOS as a universal (Apple Silicon + Intel) app with a native titlebar, DMG installer, and in-app updates alongside Windows. The macOS build in this release is not signed with an Apple Developer ID: the first launch needs a one-time Gatekeeper approval (System Settings → Privacy & Security → Open Anyway, or `xattr -cr \"/Applications/DntSpace.app\"` in Terminal). Updates from an already-approved install work normally.\n\n### Changed\n\n- **Plugins tab redesign:** the Settings → Plugins page is reorganized so enable/state/provider controls are easier to scan.\n- **Platform-correct keyboard shortcuts:** `Mod` bindings now match ⌘ on macOS and Ctrl on Windows instead of accepting either key, and shortcut labels render per platform (⌘/⌥/⇧/⌃ vs Ctrl/Alt/Shift/Meta).\n- **Native window chrome on macOS:** the custom minimize/maximize/close buttons are hidden on macOS where the native titlebar is used.",
+  "pub_date": "2026-09-25T08:10:49.000Z",
   "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEhYL0trTHdIR1cyYXRNVkt6S1BuNUhzaVF1VlJWWUlJdHBWcnNYblRZdXd2RTFvMG9KdHAycndickVoL0Qyemp6M3VTWnpYWUV1Q0hsVUNWS0ZseHdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMzI1MTg2CWZpbGU6RG50U3BhY2UuYXBwLnRhci5negordzNNdTRXNC9mWkxvTlovbnR0eEoyelNNRUs1Mmt3UlpHR1ZkWmdkaWpEaFhJTW16cVdLc0syaUtzQitlN3F4Wktqa0x0aUFOUnlCVVlXRUNnYWVEUT09Cg==",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.3/DntSpace.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEhYL0trTHdIR1cyYXRNVkt6S1BuNUhzaVF1VlJWWUlJdHBWcnNYblRZdXd2RTFvMG9KdHAycndickVoL0Qyemp6M3VTWnpYWUV1Q0hsVUNWS0ZseHdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMzI1MTg2CWZpbGU6RG50U3BhY2UuYXBwLnRhci5negordzNNdTRXNC9mWkxvTlovbnR0eEoyelNNRUs1Mmt3UlpHR1ZkWmdkaWpEaFhJTW16cVdLc0syaUtzQitlN3F4Wktqa0x0aUFOUnlCVVlXRUNnYWVEUT09Cg==",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.3/DntSpace.app.tar.gz"
+    },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEFsN2hpbUhCcHozdjJBWEJmanN0WFdsa0lxMUNQVmhRVjNHSzZxRDJFZXJuVENhR1ZOQVliZEl6MUlGWGRkci9IVjdIUk04UWpZTm8yNXN1K2VNYVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMzAyMTkxCWZpbGU6RG50U3BhY2VfMC41LjJfeDY0LXNldHVwLm5zaXMuemlwCk5kRGowODdONHBUbGdLd0lXZ1JVR0lwSHdxZXpwcFBaNmJGbTFOUUFhNVo5RnpIRnpxZFhFczhMWFM0L1JKSy9XNjg3bnB1NVdJSDJMRzZNR2ZIL0F3PT0K",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.2/DntSpace_0.5.2_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WE96empHZzk5bmlpR0lJMG5qMjhodlFXNmhyU1N6MjJOL3MvWTZSc0tFOVExSkJmL0JWQUJQejdKN2NuVFZmNUVGYlhXOGRSYzFNRkxveVNmenFPaXdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMzI1Nzg2CWZpbGU6RG50U3BhY2VfMC41LjNfeDY0LXNldHVwLm5zaXMuemlwClA5QmxGVzZhTEZNcjN6OTdmZ3hVbEJDc1hHSUFRMVNGRDNWaDgyY3lVd2lyaDNpVWpJa2xhU3NGZzdaSG5SVnZEaGtTdTdyUmJ4V2F3Zi9ZdmM4WEJnPT0K",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.3/DntSpace_0.5.3_x64-setup.nsis.zip"
     }
   }
 }
