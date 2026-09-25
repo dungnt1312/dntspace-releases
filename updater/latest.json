@@ -1,11 +1,11 @@
 {
-  "version": "0.5.1",
-  "notes": "\n### Fixed\n\n- **Email/password sign-in restored:** the desktop Email/Password form feeds the same licensed-machine session as **Sign in with browser**, so 0.4.13-era in-app credentials work again without opening a browser. The existing divider, buttons and fields now render with the Studio theme — no extra styling was added.",
-  "pub_date": "2026-09-24T11:18:56.953Z",
+  "version": "0.5.2",
+  "notes": "\n### Changed\n\n- **Settings, chat timeline, and Studio polish:** Agents/Instructions/Memory/Providers/Sandbox/Hooks/MCP/Plugins panels, TurnAssistant and timeline explorer groups, and theme tokens were tightened to the Studio system — no new theme or behavior, just consistent spacing, labels, and readable states.\n- **Guides and catalog sync:** plugin glossary, settings reference, and the official Claude plugin catalog were regenerated to match the shipped product docs.\n\n### Fixed\n\n- **Login form already Studio-conformant:** the Email/Password form restored in 0.5.1 reuses the same class family that survived the Settings sweeps in `overlays.css`; no extra CSS was added for it.",
+  "pub_date": "2026-09-25T02:09:52.435Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WERCUW81THpjaUtENEoxK1NQU3dTVVl6NlpudUR6VWJuTkFXMU15ZFN1eUFZd1JnSWpsMkZCTjlIUTkyMVpqV0EyT0RadTJSZkhNYWdMTkkvalRlY3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjQ4NzM2CWZpbGU6RG50U3BhY2VfMC41LjFfeDY0LXNldHVwLm5zaXMuemlwCldGRTZuWlNGQmZXN3laSmFaMksxWG1TZncxYThVdkNuZ0xacWZVQXhMS0NpaDdZbyt0bUo5Y2xFNGxsYTlqYzNYVGFJM0F3bHJ2ZXpDbEE1NVZOMERBPT0K",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.1/DntSpace_0.5.1_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEFsN2hpbUhCcHozdjJBWEJmanN0WFdsa0lxMUNQVmhRVjNHSzZxRDJFZXJuVENhR1ZOQVliZEl6MUlGWGRkci9IVjdIUk04UWpZTm8yNXN1K2VNYVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMzAyMTkxCWZpbGU6RG50U3BhY2VfMC41LjJfeDY0LXNldHVwLm5zaXMuemlwCk5kRGowODdONHBUbGdLd0lXZ1JVR0lwSHdxZXpwcFBaNmJGbTFOUUFhNVo5RnpIRnpxZFhFczhMWFM0L1JKSy9XNjg3bnB1NVdJSDJMRzZNR2ZIL0F3PT0K",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.2/DntSpace_0.5.2_x64-setup.nsis.zip"
     }
   }
 }
