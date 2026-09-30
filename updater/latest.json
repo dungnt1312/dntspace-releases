@@ -1,19 +1,11 @@
 {
-  "version": "0.5.4",
-  "notes": "### Fixed\n\n- **Repeated `$skill` / `@file` mentions no longer fail to send:** attachment ids are scoped per turn now, so mentioning the same skill or file in a later message no longer collides in the journal (`UNIQUE constraint failed: attachments.id`).\n\n### Changed\n\n- **Atomic composer chips:** Backspace right after a `@file` / `$skill` / `#chat` chip removes it, Esc keeps the picker closed until the token changes, and Ctrl+Enter sends a queued follow-up immediately (interrupting the live turn).\n- **Up to 8 images per message** (previously 5).",
-  "pub_date": "2026-09-28T05:26:12.000Z",
+  "version": "0.5.5",
+  "notes": "## Highlights\n\n- **Skills file browser:** open any skill's package as a file tree — `SKILL.md` first, then `references/` and `scripts/` — with a rendered Markdown preview or source view per file. Plugin skills expose their real files now.\n- **Create memories and skills by hand:** the New memory form (title, type, description, content) writes proper frontmatter plus a `MEMORY.md` index line; deleting a memory file cleans up its index entry. New skills are created inline the same way.\n- **One layout for Memory, Skills and Subagents:** the three Agent tabs share a file-tree master-detail view with full-row selection; the Subagents side sheet is gone — detail and editor open in place.\n- **Calmer diff review:** per-line marks are optional, hunk headers are hidden in previews, and agent cards show short model labels.\n\n### Fixed\n\n- Skill packages list all files (plugin skills previously showed `SKILL.md` only).\n- Deleting a memory file no longer leaves a stale line in `MEMORY.md`.\n\n**Windows:** signed NSIS installer; the auto-update feed (`updater/latest.json`) is updated with this release.",
+  "pub_date": "2026-09-30T17:55:00.000Z",
   "platforms": {
-    "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WE1JWDlXYUpoa042K0hhRkZzcE5mWjBwNElMZzJjZHBXZ1VWemRxQmYwL0JhNjk0SjlodlZwSXZMSEtnSy93NmxkeG0yTHhoWGttVXl2emcwY3FyalFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTc0NjI1CWZpbGU6RG50U3BhY2UuYXBwLnRhci5negpnRUJ5ZXBXaGlvWFVBeUFzOUNEOWQvTVRmdVVwYVRRT01JQ2VRNlpTVWlaTEZ6MGt6L2V0UHVsTHhlbzhnVjdKc1BoQVpUN3FEUnZlcDJPRUpGdHJDQT09Cg==",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.4/DntSpace.app.tar.gz"
-    },
-    "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WE1JWDlXYUpoa042K0hhRkZzcE5mWjBwNElMZzJjZHBXZ1VWemRxQmYwL0JhNjk0SjlodlZwSXZMSEtnSy93NmxkeG0yTHhoWGttVXl2emcwY3FyalFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTc0NjI1CWZpbGU6RG50U3BhY2UuYXBwLnRhci5negpnRUJ5ZXBXaGlvWFVBeUFzOUNEOWQvTVRmdVVwYVRRT01JQ2VRNlpTVWlaTEZ6MGt6L2V0UHVsTHhlbzhnVjdKc1BoQVpUN3FEUnZlcDJPRUpGdHJDQT09Cg==",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.4/DntSpace.app.tar.gz"
-    },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEU1Q2liKzhQN2JSdTloTzFodG41Um8wWHp4WnBQUXU1aElicVdtQ0I2dzJYYXozWjg3VWVrRmpMU0lBbGxlMW16UzI0SDVWWTlZMkxxdUNIdk02UXdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTc1MDEzCWZpbGU6RG50U3BhY2VfMC41LjRfeDY0LXNldHVwLm5zaXMuemlwCmJxUk1hb04yMm1mbWxpUHQrZjVhcGJJL2VyWE5lSHlBa054V1JvK3V5QlN1ckNmZzJOWStVZjNwNjFkWkRsdkhGaklPdjlnN1pqNi9lRkNMOS9oM0JnPT0K",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.4/DntSpace_0.5.4_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WExRQk0ydHFxcFZvYkxiSkh1NXQycHN3Nk1CekhWL1VGbUVlY3IxaEtERkxMYStPemRibjcxak5KUFkzU1d5dnRLOEFEU2NDVVRNM0ptT2RBY2d4encwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzY1ODIyCWZpbGU6RG50U3BhY2VfMC41LjVfeDY0LXNldHVwLm5zaXMuemlwCk10dmNabitsV1BDdUFiSWZuOTdMY2VHeDZFV09GU2x6Z2szbjliT1hxd29RUktFcXhiV2NqNWtrTTFNL3p3YVpXRHRjWW56YlE1TTFrdmZ4OXRXakFBPT0K",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.5/DntSpace_0.5.5_x64-setup.nsis.zip"
     }
   }
 }
