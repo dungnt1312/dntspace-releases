@@ -1,10 +1,18 @@
 {
   "version": "0.5.5",
-  "notes": "## Highlights\n\n- **Skills file browser:** open any skill's package as a file tree — `SKILL.md` first, then `references/` and `scripts/` — with a rendered Markdown preview or source view per file. Plugin skills expose their real files now.\n- **Create memories and skills by hand:** the New memory form (title, type, description, content) writes proper frontmatter plus a `MEMORY.md` index line; deleting a memory file cleans up its index entry. New skills are created inline the same way.\n- **One layout for Memory, Skills and Subagents:** the three Agent tabs share a file-tree master-detail view with full-row selection; the Subagents side sheet is gone — detail and editor open in place.\n- **Calmer diff review:** per-line marks are optional, hunk headers are hidden in previews, and agent cards show short model labels.\n\n### Fixed\n\n- Skill packages list all files (plugin skills previously showed `SKILL.md` only).\n- Deleting a memory file no longer leaves a stale line in `MEMORY.md`.\n\n**Windows:** signed NSIS installer; the auto-update feed (`updater/latest.json`) is updated with this release.",
-  "pub_date": "2026-09-30T17:55:00.000Z",
+  "notes": "### Added\n\n- **Skills file browser:** every skill opens its package as a file tree — `SKILL.md` first, then `references/` and `scripts/` — with a rendered Markdown preview or source per file. Plugin skills list their real files too.\n- **Manual memory and skill creation:** the New memory form (title, type, description, content) writes proper frontmatter and a `MEMORY.md` index line; deleting a memory file cleans up its index entry. New skills are created inline the same way.\n\n### Changed\n\n- **One layout for Memory, Skills and Subagents:** the three Agent tabs share a file-tree master-detail view with full-row selection; the Subagents side sheet is gone — detail and editor open in place.\n\n### Fixed\n\n- **Skill packages show all files:** plugin and imported skills list their references and scripts instead of only `SKILL.md`.",
+  "pub_date": "2026-09-30T10:58:02.000Z",
   "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WE1CUGJVbithUWYreGpsdWtySTJ6RUJmREMyMHo4Tm9xbFhPWnJ3WnJWSkxIblk1NW93Z2w0ZmUxaWttc2xUcFQ1SnQ1VmZyVEI0enprQUNSUUNkMXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzY3Mjk1CWZpbGU6RG50U3BhY2UuYXBwLnRhci5negpwSG5GU2hqTWhoNnpVTWRjQ2lweUd5RUVMMGpZWmF6RERVT0NVZE5xMUdFQUpyMnNEUWVmdGpZRm5ZMUsyZW90T2ZpR2tBR2tLQVplV0dHd1JtQUlDZz09Cg==",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.5/DntSpace.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WE1CUGJVbithUWYreGpsdWtySTJ6RUJmREMyMHo4Tm9xbFhPWnJ3WnJWSkxIblk1NW93Z2w0ZmUxaWttc2xUcFQ1SnQ1VmZyVEI0enprQUNSUUNkMXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzY3Mjk1CWZpbGU6RG50U3BhY2UuYXBwLnRhci5negpwSG5GU2hqTWhoNnpVTWRjQ2lweUd5RUVMMGpZWmF6RERVT0NVZE5xMUdFQUpyMnNEUWVmdGpZRm5ZMUsyZW90T2ZpR2tBR2tLQVplV0dHd1JtQUlDZz09Cg==",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.5/DntSpace.app.tar.gz"
+    },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WExRQk0ydHFxcFZvYkxiSkh1NXQycHN3Nk1CekhWL1VGbUVlY3IxaEtERkxMYStPemRibjcxak5KUFkzU1d5dnRLOEFEU2NDVVRNM0ptT2RBY2d4encwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzY1ODIyCWZpbGU6RG50U3BhY2VfMC41LjVfeDY0LXNldHVwLm5zaXMuemlwCk10dmNabitsV1BDdUFiSWZuOTdMY2VHeDZFV09GU2x6Z2szbjliT1hxd29RUktFcXhiV2NqNWtrTTFNL3p3YVpXRHRjWW56YlE1TTFrdmZ4OXRXakFBPT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WFBVQXRwMy9nd2V0WlhjK0c4V0lPQld4R08xZjlhcGE4cmxGQThENnZZVG5jUmFraDRCR0sxVUErMkg0NXc5VVp2RVZtQWp2QWVPUTRNQThNSG83MndvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzY3NDU1CWZpbGU6RG50U3BhY2VfMC41LjVfeDY0LXNldHVwLm5zaXMuemlwCk1DaUF5Mk95WmtQcmZtbnNIWkdDTCtZTHBCQzRmK0g5MGYyemRoMHNXNldON3NwNUZCaWx4eVlyRnpVNzdEVU5YTWNPaW1mWFZRS3lOb2JhVEhjVEF3PT0K",
       "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.5/DntSpace_0.5.5_x64-setup.nsis.zip"
     }
   }
