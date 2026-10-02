@@ -1,19 +1,19 @@
 {
-  "version": "0.5.5",
-  "notes": "### Added\n\n- **Skills file browser:** every skill opens its package as a file tree — `SKILL.md` first, then `references/` and `scripts/` — with a rendered Markdown preview or source per file. Plugin skills list their real files too.\n- **Manual memory and skill creation:** the New memory form (title, type, description, content) writes proper frontmatter and a `MEMORY.md` index line; deleting a memory file cleans up its index entry. New skills are created inline the same way.\n\n### Changed\n\n- **One layout for Memory, Skills and Subagents:** the three Agent tabs share a file-tree master-detail view with full-row selection; the Subagents side sheet is gone — detail and editor open in place.\n\n### Fixed\n\n- **Skill packages show all files:** plugin and imported skills list their references and scripts instead of only `SKILL.md`.",
-  "pub_date": "2026-09-30T10:58:02.000Z",
+  "version": "0.5.6",
+  "notes": "### Changed\n\n- **Timeline shows every thinking round in order:** during a multi-step turn, each thinking block now appears at its own place in the transcript (thinking → tool → next thinking) instead of folding into one collapsed block at the top; earlier rounds settle to a static \"Thought\" while only the newest one keeps the live cue. Conversation history renders per-round reasoning the same way.\n- **Artifact cards are quieter file chips:** the whole card is clickable to open in the workbench, with a hover \"Open ↗\" affordance replacing the always-visible button row.\n\n### Fixed\n\n- **Artifact tool rows no longer show raw `title=… kind=…` text** when only the backend preview is available — the row reads the artifact title directly.",
+  "pub_date": "2026-10-02T08:24:53.000Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WE1CUGJVbithUWYreGpsdWtySTJ6RUJmREMyMHo4Tm9xbFhPWnJ3WnJWSkxIblk1NW93Z2w0ZmUxaWttc2xUcFQ1SnQ1VmZyVEI0enprQUNSUUNkMXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzY3Mjk1CWZpbGU6RG50U3BhY2UuYXBwLnRhci5negpwSG5GU2hqTWhoNnpVTWRjQ2lweUd5RUVMMGpZWmF6RERVT0NVZE5xMUdFQUpyMnNEUWVmdGpZRm5ZMUsyZW90T2ZpR2tBR2tLQVplV0dHd1JtQUlDZz09Cg==",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.5/DntSpace.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEZjU1dwVjB1L1d3QU9DOWw1T2ZaR2tUOURSR1AvclRBUHRzK202VFFwK0hkbmhPMmpqV0NDUHBlRkZwK0l5WkJQazhhSlRpdmZBTHQzd2xIdHZCUWdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTMwODI5CWZpbGU6RG50U3BhY2UuYXBwLnRhci5negovZ1VGam5VNzlEN0hIWkxpQ0pHOEMwZ09FeVRRL1d5emtYeEtVckkyYThnWDU4MWh6UGluYXpkT0FKM0htVWJmVlJldE5MUGFTWkEzZk1iNVF3aVpDQT09Cg==",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.6/DntSpace.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WE1CUGJVbithUWYreGpsdWtySTJ6RUJmREMyMHo4Tm9xbFhPWnJ3WnJWSkxIblk1NW93Z2w0ZmUxaWttc2xUcFQ1SnQ1VmZyVEI0enprQUNSUUNkMXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzY3Mjk1CWZpbGU6RG50U3BhY2UuYXBwLnRhci5negpwSG5GU2hqTWhoNnpVTWRjQ2lweUd5RUVMMGpZWmF6RERVT0NVZE5xMUdFQUpyMnNEUWVmdGpZRm5ZMUsyZW90T2ZpR2tBR2tLQVplV0dHd1JtQUlDZz09Cg==",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.5/DntSpace.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEZjU1dwVjB1L1d3QU9DOWw1T2ZaR2tUOURSR1AvclRBUHRzK202VFFwK0hkbmhPMmpqV0NDUHBlRkZwK0l5WkJQazhhSlRpdmZBTHQzd2xIdHZCUWdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTMwODI5CWZpbGU6RG50U3BhY2UuYXBwLnRhci5negovZ1VGam5VNzlEN0hIWkxpQ0pHOEMwZ09FeVRRL1d5emtYeEtVckkyYThnWDU4MWh6UGluYXpkT0FKM0htVWJmVlJldE5MUGFTWkEzZk1iNVF3aVpDQT09Cg==",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.6/DntSpace.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WFBVQXRwMy9nd2V0WlhjK0c4V0lPQld4R08xZjlhcGE4cmxGQThENnZZVG5jUmFraDRCR0sxVUErMkg0NXc5VVp2RVZtQWp2QWVPUTRNQThNSG83MndvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzY3NDU1CWZpbGU6RG50U3BhY2VfMC41LjVfeDY0LXNldHVwLm5zaXMuemlwCk1DaUF5Mk95WmtQcmZtbnNIWkdDTCtZTHBCQzRmK0g5MGYyemRoMHNXNldON3NwNUZCaWx4eVlyRnpVNzdEVU5YTWNPaW1mWFZRS3lOb2JhVEhjVEF3PT0K",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.5/DntSpace_0.5.5_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WFByL2xVTmJERDFTcDk1K0dFeXhLK3QrYmJCemFrbnpFWWNkVXhYT2h3MzljS05FRUEzUmVZRVZjZlpMclFSUTEya0hLcmF3SkZWcU51ZGJHRXZuOWdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTMxMzg0CWZpbGU6RG50U3BhY2VfMC41LjZfeDY0LXNldHVwLm5zaXMuemlwCjhJeVFCUWIvZi9HM0c1VGQ2aFo4QjJPNUFPRnU5enZrM3YrUnlUT2ttaG9weDJxZUI0L3FCdnpyUFJpMzhzcEVXVjRZZ0F1Q0Jvd2U1NU1PS3lOQUJRPT0K",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.6/DntSpace_0.5.6_x64-setup.nsis.zip"
     }
   }
 }
