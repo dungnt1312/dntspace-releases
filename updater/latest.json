@@ -1,19 +1,19 @@
 {
-  "version": "0.5.6",
-  "notes": "### Changed\n\n- **Timeline shows every thinking round in order:** during a multi-step turn, each thinking block now appears at its own place in the transcript (thinking → tool → next thinking) instead of folding into one collapsed block at the top; earlier rounds settle to a static \"Thought\" while only the newest one keeps the live cue. Conversation history renders per-round reasoning the same way.\n- **Artifact cards are quieter file chips:** the whole card is clickable to open in the workbench, with a hover \"Open ↗\" affordance replacing the always-visible button row.\n\n### Fixed\n\n- **Artifact tool rows no longer show raw `title=… kind=…` text** when only the backend preview is available — the row reads the artifact title directly.",
-  "pub_date": "2026-10-02T08:24:53.000Z",
+  "version": "0.5.7",
+  "notes": "### Added\n\n- **Media Manager grouping:** grid and list views group items by day (Today / Yesterday / date) or by conversation, with a \"No grouping\" option; group order follows the current sort.\n\n### Fixed\n\n- **Opening Media Manager details no longer reflows the results:** the details panel is now an overlay drawer at every width, so the grid/list underneath never shifts or scrolls when a file is selected.\n- **Thumbnails show the full image** (`contain` instead of `cover`) so screenshots and tall images aren't cropped, with a smaller file-type placeholder icon.\n- **Terminal copy/paste chords (Ctrl+Shift+C, Ctrl+V / Ctrl+Shift+V) work again** — a return-value inversion at the xterm boundary made xterm swallow the handled keys; the initial terminal fit is also cancelled cleanly on unmount.\n- **Switching or creating a chat session now returns you to the chat column** — the Media Manager closes automatically on any chat-navigation action.",
+  "pub_date": "2026-10-02T17:30:12.000Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEZjU1dwVjB1L1d3QU9DOWw1T2ZaR2tUOURSR1AvclRBUHRzK202VFFwK0hkbmhPMmpqV0NDUHBlRkZwK0l5WkJQazhhSlRpdmZBTHQzd2xIdHZCUWdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTMwODI5CWZpbGU6RG50U3BhY2UuYXBwLnRhci5negovZ1VGam5VNzlEN0hIWkxpQ0pHOEMwZ09FeVRRL1d5emtYeEtVckkyYThnWDU4MWh6UGluYXpkT0FKM0htVWJmVlJldE5MUGFTWkEzZk1iNVF3aVpDQT09Cg==",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.6/DntSpace.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEVHcHRDUUZmdWRxZDljM2hwM3ZzbmNCLzNXZ1pOTHlaR1phejN5b0dWU29zbldJbnVha1hyZmUxRFFoMVB6NlQrc0xsby8zZmR2WnlyenVEeFFiWnc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTYzNDA1CWZpbGU6RG50U3BhY2UuYXBwLnRhci5nego2SEdEdjBqQkx5dER5akNEcDNneE9qa29WQTRxQVpub1djNnBDUHEvOVpLYnJLdE9RYkdPck8rRUttTitqTG1tZEljcWt5eFpTVUZJaXVIVzVITitCQT09Cg==",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.7/DntSpace.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEZjU1dwVjB1L1d3QU9DOWw1T2ZaR2tUOURSR1AvclRBUHRzK202VFFwK0hkbmhPMmpqV0NDUHBlRkZwK0l5WkJQazhhSlRpdmZBTHQzd2xIdHZCUWdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTMwODI5CWZpbGU6RG50U3BhY2UuYXBwLnRhci5negovZ1VGam5VNzlEN0hIWkxpQ0pHOEMwZ09FeVRRL1d5emtYeEtVckkyYThnWDU4MWh6UGluYXpkT0FKM0htVWJmVlJldE5MUGFTWkEzZk1iNVF3aVpDQT09Cg==",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.6/DntSpace.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEVHcHRDUUZmdWRxZDljM2hwM3ZzbmNCLzNXZ1pOTHlaR1phejN5b0dWU29zbldJbnVha1hyZmUxRFFoMVB6NlQrc0xsby8zZmR2WnlyenVEeFFiWnc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTYzNDA1CWZpbGU6RG50U3BhY2UuYXBwLnRhci5nego2SEdEdjBqQkx5dER5akNEcDNneE9qa29WQTRxQVpub1djNnBDUHEvOVpLYnJLdE9RYkdPck8rRUttTitqTG1tZEljcWt5eFpTVUZJaXVIVzVITitCQT09Cg==",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.7/DntSpace.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WFByL2xVTmJERDFTcDk1K0dFeXhLK3QrYmJCemFrbnpFWWNkVXhYT2h3MzljS05FRUEzUmVZRVZjZlpMclFSUTEya0hLcmF3SkZWcU51ZGJHRXZuOWdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTMxMzg0CWZpbGU6RG50U3BhY2VfMC41LjZfeDY0LXNldHVwLm5zaXMuemlwCjhJeVFCUWIvZi9HM0c1VGQ2aFo4QjJPNUFPRnU5enZrM3YrUnlUT2ttaG9weDJxZUI0L3FCdnpyUFJpMzhzcEVXVjRZZ0F1Q0Jvd2U1NU1PS3lOQUJRPT0K",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.6/DntSpace_0.5.6_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEdwVEU3WC9DYkFzdlZqYzVTNHB6dUxBaGJDOVFIUldRT2hMYWZCZG9UdmRMeDFZSnY3WUw4Y3JlcXdVZHhPMHJxbzJBSGVnQ0VXMDM1SlBSbmlyK2dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTYzNjU2CWZpbGU6RG50U3BhY2VfMC41LjdfeDY0LXNldHVwLm5zaXMuemlwClZCQlNDK0QxRGJBWFgxbEsyUFhxQzlKVXJuNGRmTGdJRkgvQTR5bytIUlFuZ1BKOHlqb3ZNUEZPNUI1a0gzSHM5RFhSSnBBaFlhR216YW5jdEcrV0NnPT0K",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.7/DntSpace_0.5.7_x64-setup.nsis.zip"
     }
   }
 }
