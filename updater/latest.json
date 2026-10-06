@@ -1,19 +1,19 @@
 {
-  "version": "0.5.7",
-  "notes": "### Added\n\n- **Media Manager grouping:** grid and list views group items by day (Today / Yesterday / date) or by conversation, with a \"No grouping\" option; group order follows the current sort.\n\n### Fixed\n\n- **Opening Media Manager details no longer reflows the results:** the details panel is now an overlay drawer at every width, so the grid/list underneath never shifts or scrolls when a file is selected.\n- **Thumbnails show the full image** (`contain` instead of `cover`) so screenshots and tall images aren't cropped, with a smaller file-type placeholder icon.\n- **Terminal copy/paste chords (Ctrl+Shift+C, Ctrl+V / Ctrl+Shift+V) work again** — a return-value inversion at the xterm boundary made xterm swallow the handled keys; the initial terminal fit is also cancelled cleanly on unmount.\n- **Switching or creating a chat session now returns you to the chat column** — the Media Manager closes automatically on any chat-navigation action.",
-  "pub_date": "2026-10-02T17:30:12.000Z",
+  "version": "0.5.8",
+  "notes": "### Added\n\n- **Workbench Files view:** the Files tab is now a full workspace browser — a file tree sidebar plus editor tabs that open text files in Monaco and preview images, video, audio, PDF, DOCX and XLSX in place, with \"reveal in Explorer\" per tab.\n- **Per-model override management:** model settings now show which overrides (context limit, max output tokens, capabilities, reasoning, visibility) differ from defaults for each model, and a Reset Models dialog restores factory defaults in one click.\n- **Media preview in file-change diffs:** changed media files get an inline preview (e.g. audio player) inside the diff view instead of a plain text row.\n\n### Changed\n\n- **Tool output renders ANSI colors:** terminal-style tool output (test runs, builds) shows bold/colored ANSI text in tool cards instead of raw escape sequences.\n\n### Fixed\n\n- **Failed turns are no longer silent:** when a turn fails immediately (e.g. unknown model 404) with no assistant text or tools, the persisted error note now opens a failed turn in the transcript instead of disappearing.",
+  "pub_date": "2026-10-06T02:28:20.000Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEVHcHRDUUZmdWRxZDljM2hwM3ZzbmNCLzNXZ1pOTHlaR1phejN5b0dWU29zbldJbnVha1hyZmUxRFFoMVB6NlQrc0xsby8zZmR2WnlyenVEeFFiWnc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTYzNDA1CWZpbGU6RG50U3BhY2UuYXBwLnRhci5nego2SEdEdjBqQkx5dER5akNEcDNneE9qa29WQTRxQVpub1djNnBDUHEvOVpLYnJLdE9RYkdPck8rRUttTitqTG1tZEljcWt5eFpTVUZJaXVIVzVITitCQT09Cg==",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.7/DntSpace.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEZzeWdGc3dIaUVIMzg0LzNScXJTcGlQN1NucHRUREo4cXRab0NSK2VFUjJxejNKS2tBcm04Nk05SFBOeFd4bGFmbW5Tc2xldUNRd1FFVzQ0M0dKdGc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjU1MTI1CWZpbGU6RG50U3BhY2UuYXBwLnRhci5nego5clVJZy83bFFQbCtZY0NYYVdQcVVZbExMNERTOFpuc01FeUFray9aK2pGb3hsNjl2ckZMODdWOTdGZ2hockpiZXVuWG9zSzZOT2xIOVlTRXBScHNCZz09Cg==",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.8/DntSpace.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEVHcHRDUUZmdWRxZDljM2hwM3ZzbmNCLzNXZ1pOTHlaR1phejN5b0dWU29zbldJbnVha1hyZmUxRFFoMVB6NlQrc0xsby8zZmR2WnlyenVEeFFiWnc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTYzNDA1CWZpbGU6RG50U3BhY2UuYXBwLnRhci5nego2SEdEdjBqQkx5dER5akNEcDNneE9qa29WQTRxQVpub1djNnBDUHEvOVpLYnJLdE9RYkdPck8rRUttTitqTG1tZEljcWt5eFpTVUZJaXVIVzVITitCQT09Cg==",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.7/DntSpace.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEZzeWdGc3dIaUVIMzg0LzNScXJTcGlQN1NucHRUREo4cXRab0NSK2VFUjJxejNKS2tBcm04Nk05SFBOeFd4bGFmbW5Tc2xldUNRd1FFVzQ0M0dKdGc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjU1MTI1CWZpbGU6RG50U3BhY2UuYXBwLnRhci5nego5clVJZy83bFFQbCtZY0NYYVdQcVVZbExMNERTOFpuc01FeUFray9aK2pGb3hsNjl2ckZMODdWOTdGZ2hockpiZXVuWG9zSzZOT2xIOVlTRXBScHNCZz09Cg==",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.8/DntSpace.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEdwVEU3WC9DYkFzdlZqYzVTNHB6dUxBaGJDOVFIUldRT2hMYWZCZG9UdmRMeDFZSnY3WUw4Y3JlcXdVZHhPMHJxbzJBSGVnQ0VXMDM1SlBSbmlyK2dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTYzNjU2CWZpbGU6RG50U3BhY2VfMC41LjdfeDY0LXNldHVwLm5zaXMuemlwClZCQlNDK0QxRGJBWFgxbEsyUFhxQzlKVXJuNGRmTGdJRkgvQTR5bytIUlFuZ1BKOHlqb3ZNUEZPNUI1a0gzSHM5RFhSSnBBaFlhR216YW5jdEcrV0NnPT0K",
-      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.7/DntSpace_0.5.7_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQXIrTFJZVmx5WEV3eWNlclR4ZXYySnJJdVUzNy9iaFk3WmJjbW5tQWl4SityRzc0ZllWUkR6QkMxRkc1R2ZXeXVqOUxJaS9lQmdRd0sxTWdrR01UVkRFOW1zV3dtMWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjU1MTQ0CWZpbGU6RG50U3BhY2VfMC41LjhfeDY0LXNldHVwLm5zaXMuemlwCjVoazgwTllIcU5aQXZPTlpQeWcwdjJxaS9yZmUvWTlFc1N6SnRkRG43OTJKYU5QeUJsa3FFbFh6L3FyNWFxbU5WS1FFa3Q2YjZaQlFkYlQrSExtTURnPT0K",
+      "url": "https://github.com/dungnt1312/dntspace-releases/releases/download/v0.5.8/DntSpace_0.5.8_x64-setup.nsis.zip"
     }
   }
 }
